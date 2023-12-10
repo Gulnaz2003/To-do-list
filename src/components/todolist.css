@@ -1,0 +1,40 @@
+.todo {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  width: 500px;
+  height: 300px;
+}
+
+.todo h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  padding: 8px;
+  margin-right: 10px;
+  background-color: aliceblue;
+}
+.todo-form button {
+  background-color: aqua;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+}
+
+.task-list li button {
+  margin-left: 5px;
+  padding: 3px 8px;
+}
